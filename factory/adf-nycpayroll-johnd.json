@@ -1,0 +1,17 @@
+{
+	"name": "adf-nycpayroll-johnd",
+	"properties": {
+		"globalParameters": {
+			"dataflow_param_fiscalyear": {
+				"type": "string",
+				"value": "\"2020\""
+			}
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ef7c01f8-bd29-4628-b49b-64ae95290981",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}

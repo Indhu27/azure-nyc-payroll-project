@@ -1,0 +1,17 @@
+{
+	"name": "DS_Synapse_PayrollSummary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Synapse_NYCPayroll",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYC_Payroll_Summary_External"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
